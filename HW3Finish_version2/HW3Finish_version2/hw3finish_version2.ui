@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HW3Finish_version2Class</class>
+ <widget class="QWidget" name="HW3Finish_version2Class">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>816</width>
+    <height>521</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>HW3Finish_version2</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_3">
+   <item>
+    <widget class="QVTKWidget" name="qvtkWidget" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>500</width>
+       <height>500</height>
+      </size>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="baseSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QWidget" name="widget_3" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>140</width>
+             <height>230</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>140</width>
+             <height>230</height>
+            </size>
+           </property>
+           <widget class="QPushButton" name="Skin_accept_button">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="geometry">
+             <rect>
+              <x>78</x>
+              <y>200</y>
+              <width>51</width>
+              <height>23</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Accept</string>
+            </property>
+           </widget>
+           <widget class="QSlider" name="Skin_opacity_slider">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="geometry">
+             <rect>
+              <x>8</x>
+              <y>150</y>
+              <width>121</width>
+              <height>22</height>
+             </rect>
+            </property>
+            <property name="maximum">
+             <number>10</number>
+            </property>
+            <property name="singleStep">
+             <number>1</number>
+            </property>
+            <property name="pageStep">
+             <number>1</number>
+            </property>
+            <property name="value">
+             <number>0</number>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+           <widget class="QLabel" name="Skin_opacity_value">
+            <property name="geometry">
+             <rect>
+              <x>72</x>
+              <y>121</y>
+              <width>31</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="Skin_isovalue_name">
+            <property name="geometry">
+             <rect>
+              <x>8</x>
+              <y>51</y>
+              <width>81</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>9</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;ISO-Value =&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="Skin_isovalue_value">
+            <property name="geometry">
+             <rect>
+              <x>90</x>
+              <y>51</y>
+              <width>31</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QSlider" name="Skin_isovalue_slider">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="geometry">
+             <rect>
+              <x>8</x>
+              <y>80</y>
+              <width>121</width>
+              <height>22</height>
+             </rect>
+            </property>
+            <property name="maximum">
+             <number>1000</number>
+            </property>
+            <property name="singleStep">
+             <number>100</number>
+            </property>
+            <property name="pageStep">
+             <number>100</number>
+            </property>
+            <property name="value">
+             <number>0</number>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="Skin_color_button">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="geometry">
+             <rect>
+              <x>8</x>
+              <y>200</y>
+              <width>61</width>
+              <height>23</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>    Color</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="Skin_opacity_name">
+            <property name="geometry">
+             <rect>
+              <x>8</x>
+              <y>121</y>
+              <width>61</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Opacity =&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="Skin_title">
+            <property name="geometry">
+             <rect>
+              <x>40</x>
+              <y>11</y>
+              <width>51</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Skin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="Skin_color_show">
+            <property name="geometry">
+             <rect>
+              <x>13</x>
+              <y>203</y>
+              <width>16</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_2" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>140</width>
+             <height>230</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>140</width>
+             <height>230</height>
+            </size>
+           </property>
+           <widget class="QSlider" name="Skull_opacity_slider">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="geometry">
+             <rect>
+              <x>5</x>
+              <y>150</y>
+              <width>121</width>
+              <height>22</height>
+             </rect>
+            </property>
+            <property name="maximum">
+             <number>10</number>
+            </property>
+            <property name="pageStep">
+             <number>1</number>
+            </property>
+            <property name="value">
+             <number>0</number>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+           <widget class="QLabel" name="Skull_opacity_name">
+            <property name="geometry">
+             <rect>
+              <x>5</x>
+              <y>121</y>
+              <width>61</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Opacity =&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="Skull_title">
+            <property name="geometry">
+             <rect>
+              <x>35</x>
+              <y>10</y>
+              <width>51</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Skull&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QSlider" name="Skull_isovalue_slider">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="geometry">
+             <rect>
+              <x>5</x>
+              <y>80</y>
+              <width>121</width>
+              <height>22</height>
+             </rect>
+            </property>
+            <property name="maximum">
+             <number>3000</number>
+            </property>
+            <property name="singleStep">
+             <number>100</number>
+            </property>
+            <property name="pageStep">
+             <number>100</number>
+            </property>
+            <property name="value">
+             <number>0</number>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+           <widget class="QLabel" name="Skull_opacity_value">
+            <property name="geometry">
+             <rect>
+              <x>69</x>
+              <y>121</y>
+              <width>31</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="Skull_accept_button">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="geometry">
+             <rect>
+              <x>75</x>
+              <y>200</y>
+              <width>51</width>
+              <height>23</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Accept</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="Skull_isovalue_name">
+            <property name="geometry">
+             <rect>
+              <x>5</x>
+              <y>51</y>
+              <width>81</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;ISO-Value =&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="Skull_isovalue_value">
+            <property name="geometry">
+             <rect>
+              <x>87</x>
+              <y>51</y>
+              <width>31</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="Skull_color_button">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="geometry">
+             <rect>
+              <x>5</x>
+              <y>200</y>
+              <width>61</width>
+              <height>23</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>    Color</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="Skull_color_show">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>203</y>
+              <width>16</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>190</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>292</width>
+           <height>190</height>
+          </size>
+         </property>
+         <widget class="QLabel" name="Xslice_name">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>60</y>
+            <width>31</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;X =&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="Zslice_name">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>120</y>
+            <width>31</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Z =&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QSpinBox" name="Xslice_position">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>60</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="maximum">
+           <number>63</number>
+          </property>
+          <property name="value">
+           <number>0</number>
+          </property>
+         </widget>
+         <widget class="QSpinBox" name="Yslice_position">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>90</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="maximum">
+           <number>63</number>
+          </property>
+          <property name="value">
+           <number>0</number>
+          </property>
+         </widget>
+         <widget class="QLabel" name="Yslice_name">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>90</y>
+            <width>31</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Y =&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="Orthogonal_planes">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>160</y>
+            <width>141</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Show Orthogonal Planes</string>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+          <property name="autoRepeat">
+           <bool>true</bool>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QSpinBox" name="Zslice_position">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>120</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="maximum">
+           <number>92</number>
+          </property>
+          <property name="value">
+           <number>0</number>
+          </property>
+         </widget>
+         <widget class="QSlider" name="Window_slider">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>158</x>
+            <y>150</y>
+            <width>121</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="maximum">
+           <number>3926</number>
+          </property>
+          <property name="singleStep">
+           <number>100</number>
+          </property>
+          <property name="pageStep">
+           <number>100</number>
+          </property>
+          <property name="value">
+           <number>0</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+         <widget class="QLabel" name="Window_name">
+          <property name="geometry">
+           <rect>
+            <x>158</x>
+            <y>121</y>
+            <width>71</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Window =&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="Level_name">
+          <property name="geometry">
+           <rect>
+            <x>158</x>
+            <y>50</y>
+            <width>51</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Level =&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="Level_value">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>50</y>
+            <width>41</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="Window_value">
+          <property name="geometry">
+           <rect>
+            <x>230</x>
+            <y>120</y>
+            <width>41</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QSlider" name="Level_slider">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>158</x>
+            <y>79</y>
+            <width>121</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="maximum">
+           <number>1963</number>
+          </property>
+          <property name="singleStep">
+           <number>100</number>
+          </property>
+          <property name="pageStep">
+           <number>100</number>
+          </property>
+          <property name="value">
+           <number>0</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+         <widget class="QLabel" name="Slice_title">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>10</y>
+            <width>51</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Slice&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>170</y>
+            <width>271</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="Open_File">
+         <property name="minimumSize">
+          <size>
+           <width>75</width>
+           <height>23</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>80</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Open File</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Update">
+         <property name="minimumSize">
+          <size>
+           <width>75</width>
+           <height>23</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>80</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Update</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QVTKWidget</class>
+   <extends>QWidget</extends>
+   <header>QVTKWidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="HW3Finish_version2.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>Open_File</sender>
+   <signal>clicked()</signal>
+   <receiver>HW3Finish_version2Class</receiver>
+   <slot>Open_File()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>639</x>
+     <y>487</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>579</x>
+     <y>483</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Update</sender>
+   <signal>clicked()</signal>
+   <receiver>HW3Finish_version2Class</receiver>
+   <slot>Update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>768</x>
+     <y>487</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>813</x>
+     <y>484</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Level_slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>HW3Finish_version2Class</receiver>
+   <slot>Level()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>794</x>
+     <y>348</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>813</x>
+     <y>336</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Yslice_position</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>HW3Finish_version2Class</receiver>
+   <slot>Yslice()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>637</x>
+     <y>360</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>545</x>
+     <y>341</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Skull_opacity_slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>HW3Finish_version2Class</receiver>
+   <slot>Skull_opacity()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>764</x>
+     <y>172</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>719</x>
+     <y>181</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Zslice_position</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>HW3Finish_version2Class</receiver>
+   <slot>Zslice()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>636</x>
+     <y>389</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>546</x>
+     <y>377</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Skin_isovalue_slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>HW3Finish_version2Class</receiver>
+   <slot>Skin_isovalue()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>623</x>
+     <y>95</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>537</x>
+     <y>106</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Xslice_position</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>HW3Finish_version2Class</receiver>
+   <slot>Xslice()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>636</x>
+     <y>329</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>301</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Skull_isovalue_slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>HW3Finish_version2Class</receiver>
+   <slot>Skull_isovalue()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>788</x>
+     <y>106</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>725</x>
+     <y>94</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Skin_color_button</sender>
+   <signal>clicked()</signal>
+   <receiver>HW3Finish_version2Class</receiver>
+   <slot>Skin_color()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>585</x>
+     <y>222</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>243</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Skin_opacity_slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>HW3Finish_version2Class</receiver>
+   <slot>Skin_opacity()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>607</x>
+     <y>172</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>174</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Skull_color_button</sender>
+   <signal>clicked()</signal>
+   <receiver>HW3Finish_version2Class</receiver>
+   <slot>Skull_color()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>728</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>717</x>
+     <y>198</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Orthogonal_planes</sender>
+   <signal>clicked()</signal>
+   <receiver>HW3Finish_version2Class</receiver>
+   <slot>Orthogonal_planes()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>612</x>
+     <y>415</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>548</x>
+     <y>411</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Window_slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>HW3Finish_version2Class</receiver>
+   <slot>Window()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>794</x>
+     <y>419</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>813</x>
+     <y>418</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Skin_accept_button</sender>
+   <signal>clicked()</signal>
+   <receiver>HW3Finish_version2Class</receiver>
+   <slot>Skin_accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>645</x>
+     <y>228</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>702</x>
+     <y>229</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Skull_accept_button</sender>
+   <signal>clicked()</signal>
+   <receiver>HW3Finish_version2Class</receiver>
+   <slot>Skull_accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>788</x>
+     <y>224</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>813</x>
+     <y>231</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>Open_File()</slot>
+  <slot>Xslice()</slot>
+  <slot>Yslice()</slot>
+  <slot>Zslice()</slot>
+  <slot>Update()</slot>
+  <slot>Skin_opacity()</slot>
+  <slot>Skull_opacity()</slot>
+  <slot>Skin_isovalue()</slot>
+  <slot>Skull_isovalue()</slot>
+  <slot>Skin_color()</slot>
+  <slot>Level()</slot>
+  <slot>Window()</slot>
+  <slot>Orthogonal_planes()</slot>
+  <slot>Skull_color()</slot>
+  <slot>Skin_accept()</slot>
+  <slot>Skull_accept()</slot>
+  <slot>Open_dicom_file()</slot>
+ </slots>
+</ui>
