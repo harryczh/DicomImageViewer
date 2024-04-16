@@ -1,8 +1,6 @@
 # DicomImageViewer
 
-可調整影像參數、顏色、透明度，及三軸切面位置。
-
-使用Visual C++開發，套用第三方工具Qt Designer設計使用者介面與VTK處理醫學影像。
+Dicom影像讀取工具，可調整影像參數、顏色、透明度，及三軸切面位置。(C++、Qt、VTK)
 
 整包的DicomViewer資料夾複製出來，應可直接行DicomViewer.exe執行檔。
 
